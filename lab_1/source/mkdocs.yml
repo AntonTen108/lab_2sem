@@ -1,0 +1,35 @@
+site_name: Портфолио — Тен Антон
+site_url: https://AntonTen108.github.io/
+site_author: Тен Антон
+site_description: Портфолио студента группы P3120
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+nav:
+  - Главная: index.md
+  - Об авторе: about.md
+  - Лабораторные работы:
+      - Обзор: labs/index.md
+      - Лабораторная работа 1: labs/lab1.md
+      - Лабораторная работа 2: labs/lab2.md
+      - Лабораторная работа 3: labs/lab3.md
+      - Лабораторная работа 4: labs/lab4.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - toc:
+      permalink: true
