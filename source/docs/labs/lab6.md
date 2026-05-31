@@ -14,7 +14,7 @@
 
 ## Ссылка на ноутбук
 
-📓 [Открыть ноутбук в Google Colab](ССЫЛКА_НА_ТВОЙ_COLAB)
+📓 [Открыть ноутбук в Google Colab](https://colab.research.google.com/drive/16z1umNGy0alsOJ3JtAhPcNWxAtPRwY80?usp=sharing)
 
 ---
 
